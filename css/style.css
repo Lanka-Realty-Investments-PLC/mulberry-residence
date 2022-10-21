@@ -4965,13 +4965,82 @@ a.mapboxgl-ctrl-logo {
 }
 
 .mapboxgl-marker::before {
-    content: "Mulberry Residence";
-    font-size: 20px;
-    color: var(--black-color);
-    font-weight: 600;
+    content: "";
     position: absolute;
-    bottom: 110%;
+    bottom: 120%;
     left: 50%;
-    width: max-content;
+    width: 200px;
+    height: auto;
+    aspect-ratio: 3 / 2;
+    background-image: url(/img/mulberry-logo.svg);
+    background-size: 100%;
+    background-position: center bottom;
+    background-repeat: no-repeat;
     transform: translateX(-50%);
+}
+
+
+/* Changes to Pricing & Payments page. Done on 21/10/2022 by Madushan Sooriyarathne @ Advertaro */
+
+.plan-box {
+    width: 100%;
+    height: auto;
+
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+}
+
+.plan-box > h5 {
+    font-family: 'IBM-Plex-Sans', 'Helvetica Neue', 'Arial', 'sans-serif' !important;
+    font-size: clamp(32px, 2.91vw, 48px);
+    text-align: center;
+    font-weight: 600;
+    color: var(--gray-color)
+}
+
+.plan-box > .price-request-button-group {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+    column-gap: 40px;
+    flex-wrap: wrap;
+}
+
+plan-box > .price-request-button-group > .whatsapp-button {
+    width: auto;
+    height:auto;
+
+    padding: 10px 20px;
+    display: flex;
+
+}
+
+div.plan-box > .price-request-button-group > .phone-button {
+    font-size: 18px !important;
+    font-weight: 600 !important;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: var(--main-color);
+
+    color: var(--black-color) !important;
+
+}
+
+
+div.plan-box > div > a:nth-child(2) > svg {
+    rotate: 90deg !important;
 }
