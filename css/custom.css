@@ -1,0 +1,25 @@
+@import url('fonts.css');
+
+:root { 
+  --main-color:#e1b05d;
+  --white-color:#fff;
+  --black-color:#000;
+  --blue-color:#000e32;
+  --gray-color:#4d4f50;
+}
+
+body {
+  font-family: 'IBM-Plex-Sans','Helvetica Neue','Arial','sans-serif' !important;
+  /*overflow-x: hidden;*/
+  line-height: 1.6;
+}
+
+nav .menu-btn .line, .menu-btn .line {
+    background: var(--black-color) !important;
+}
+.number-ul li a {
+    color: var(--black-color) !important;
+}
+#nav.nav-open .menu-btn .line{
+    background: var(--white-color) !important;
+  }
