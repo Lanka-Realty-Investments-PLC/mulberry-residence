@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'IBM-Plex-Sans';
+    src: url('./fonts/IBMPlexSans.eot');
+    src: url('./fonts/IBMPlexSans.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/IBMPlexSans.woff2') format('woff2'),
+        url('./fonts/IBMPlexSans.woff') format('woff'),
+        url('./fonts/IBMPlexSans.ttf') format('truetype'),
+        url('./fonts/IBMPlexSans.svg#IBMPlexSans') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto-Regular.eot');
+    src: url('./fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Roboto-Regular.woff2') format('woff2'),
+        url('./fonts/Roboto-Regular.woff') format('woff'),
+        url('./fonts/Roboto-Regular.ttf') format('truetype'),
+        url('./fonts/Roboto-Regular.svg#Roboto-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./fonts/Gilroy-Light.eot');
+    src: url('./fonts/Gilroy-Light.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Gilroy-Light.woff2') format('woff2'),
+        url('./fonts/Gilroy-Light.woff') format('woff'),
+        url('./fonts/Gilroy-Light.ttf') format('truetype'),
+        url('./fonts/Gilroy-Light.svg#Gilroy-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Gilroy-bold';
+    src: url('./fonts/Gilroy-Bold.eot');
+    src: url('./fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Gilroy-Bold.woff2') format('woff2'),
+        url('./fonts/Gilroy-Bold.woff') format('woff'),
+        url('./fonts/Gilroy-Bold.ttf') format('truetype'),
+        url('./fonts/Gilroy-Bold.svg#Gilroy-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'BelweBT-Bold';
+    src: url('./fonts/BelweBT-Bold.eot');
+    src: url('./fonts/BelweBT-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/BelweBT-Bold.woff2') format('woff2'),
+        url('./fonts/BelweBT-Bold.woff') format('woff'),
+        url('./fonts/BelweBT-Bold.ttf') format('truetype'),
+        url('./fonts/BelweBT-Bold.svg#BelweBT-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Exodus-Demo-Sa';
+    src: url('./fonts/ExodusDemo-Sa.eot');
+    src: url('./fonts/ExodusDemo-Sa.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/ExodusDemo-Sa.woff2') format('woff2'),
+        url('./fonts/ExodusDemo-Sa.woff') format('woff'),
+        url('./fonts/ExodusDemo-Sa.ttf') format('truetype'),
+        url('./fonts/ExodusDemo-Sa.svg#ExodusDemo-Sa') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+
+
+
+
+
+
+

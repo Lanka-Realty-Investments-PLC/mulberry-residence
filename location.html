@@ -1,0 +1,499 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Favicons -->
+  <link href="img/Mulberry_favicon.png" rel="icon">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+  <link href="lib/fontawesome/css/all.min.css" rel="stylesheet">
+  <link href="lib/fontawesome/css/fontawesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/jquery-ui.min.css">
+  <link rel="stylesheet" href="lib/slick/slick.css">
+
+      <!-- Mapbox -->
+
+      <link href='https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.css' rel='stylesheet' />
+      <script src='https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.js'></script>
+
+  <title>Mulberry Residence</title>
+</head>
+
+<body>
+  <!----header nav bar -->
+  <!-- Setup my Navbar -->
+  <header id="header" class="header-scrolled">
+    <div class="container-fluid">
+      <div id="logo" class="pull-left">
+        <a href="index.html"><span class="logo-mulberry"></span></a>
+      </div>
+
+      <div id="main">
+        <div id="nav">
+          <div id="nav-menu">
+            <div class="span-menu">
+              <div class="menu-btn">
+                <div class="line line--1"></div>
+                <div class="line line--2"></div>
+                <div class="line line--3"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <ul class="number-ul">
+        <!--<li><a href="#"><span class="icon-circle"><i class="fas fa-phone-alt"></i></span></a></li>-->
+        <li><a href="https://wa.me/+94767555777"  class="whatsapp-button" style="color: #fff !important" target="_blank"><i class="fab fa-whatsapp "></i> +94 76 755 5777</a></li>
+      </ul>
+      <div class="dropdownmenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Apartments <i class="fas fa-angle-down"></i></a>
+          <ul id="submenu">
+            <li><a href="platinum.html">Platinum</a></li>
+            <li><a href="club.html">Club</a></li>
+            <li><a href="superior.html">Superior</a></li>
+            <li><a href="master.html">Master</a></li>
+            <li><a href="deluxe.html">Deluxe</a></li>
+          </ul></li>
+          <li><a href="masterplan.html">Floor Plans</a></li>
+          <li><a href="walkthrough.html">WALK THROUGH</a></li>
+          <li><a href="payment.html">Payment Plan</a></li>
+          <li><a href="facilities.html">Facilities & Finishes</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+
+      </div>
+      <!-- #nav-menu-container -->
+    </div>
+    <div class=hidden>
+      <div class="nav-links">
+        <ul>
+          <li> <a href="index.html" class="link">Home</a></li>
+          <li> <a href="about.html" class="link">About us</a> </li>
+          <li> <a href="location.html" class="link">Location </a> </li>
+          <li class="drop-link"> <a href="#" class="link">Apartments</a>
+          <ul class="nav-sub">
+            <li><a href="platinum.html">Platinum</a></li>
+            <li><a href="club.html">Club</a></li>
+            <li><a href="superior.html">Superior</a></li>
+            <li><a href="master.html">Master</a></li>
+            <li><a href="deluxe.html">Deluxe</a></li>
+          </ul></li>
+          <li> <a href="masterplan.html" class="link">Floor Plans</a></li>
+          <li> <a href="walkthrough.html" class="link">WALK THROUGH</a></li>
+          <li> <a href="availability.html" class="link">Availability </a> </li>
+          <li> <a href="payment.html" class="link">Payment Plan</a></li>
+          <li> <a href="facilities.html" class="link">Facilities & Finishes</a> </li>
+          <li> <a href="progress.html" class="link">Progress</a></li>
+          <li><a href="gallery.html" class="link">Gallery</a></li>
+          <li><a href="faq.html" class="link">FAQ</a></li>
+          <li> <a href="contact.html" class="link">Contact Us</a> </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <!----end of header nav bar-->
+  <div>
+    <div class="container-fluid-wide">
+      <section class="about-us page-banner-section">
+        <div class="main-title center">
+          <h3>Location</h3>
+        </div>
+      </section>
+    </div>
+
+    <section class="map location-map">
+      <div class="map-responsive-2">
+      <!--  <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.6841778123767!2d79.8660455153483!3d6.9283021202456965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2590f2f904bf7%3A0xaaa884537d6de3fa!2sMULBERRY%20RESIDENCE!5e0!3m2!1sen!2slk!4v1601453894347!5m2!1sen!2slk"
+          width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+          tabindex="0"></iframe>-->
+          <div class="map-responsive3" style="height: 60vh;">
+            <section id="mapbox-map" style="height: 100%;">
+    
+            </section></div>
+      </div>
+    </section>
+    <div class="container">
+      <div class="container-box center">
+        <!-------section slider tab---------->
+        <section class="distance-slider">
+          <div class="container">
+            <div class="progress-slider">
+              <h1>Nearest Places</h1>
+              <div class="main-slider-box">
+
+                <div class="slider main-slider-nav">
+                  <div class="mins-tag"><a>5 MINS</a></div>
+                  <div class="mins-tag"><a>10 MINS</a></div>
+                  <div class="mins-tag"><a>15 MINS</a></div>
+                  <div class="mins-tag"><a>20 MINS</a></div>
+                  <div class="mins-tag"><a>45 MINS</a></div>
+                </div>
+                <div class="slider main-slider-for">
+                  <div class="distance-info-tag">
+                    <h3><span class="social-circle"><i class="fas fa-school"></i></span>Zahira College / <span
+                        class="social-circle"><i class="fas fa-school"></i></span>Ananda College</h3>
+                    <h3><span class="social-circle"><i class="fas fa-school"></i></span>Ashoka College / <span
+                        class="social-circle"><i class="fas fa-shopping-basket"></i></span>Cargills Food City</h3>
+                  </div>
+                  <div class="distance-info-tag">
+                    <h3><span class="social-circle"><i class="fas fa-shopping-bag"></i></span>ODEL / <span
+                        class="social-circle"><i class="fas fa-shopping-bag"></i></span>House of Fashion</h3>
+                    <h3><span class="social-circle"><i class="fas fa-hospital"></i></span>Nawaloka Hospital / <span
+                        class="social-circle"><i class="fas fa-hospital"></i></span>National Hospital</h3>
+                  </div>
+                  <div class="distance-info-tag">
+                    <h3><span class="social-circle"><i class="fas fa-university"></i></span>World Trade Center / <span
+                        class="social-circle"><i class="fas fa-university"></i></span>Bank of Ceylon</h3>
+                  </div>
+                  <div class="distance-info-tag">
+                    <h3><span class="social-circle"><i class="fas fa-tree"></i></span>Victoria Park / <span
+                        class="social-circle"><i class="fas fa-water"></i></span>Galle Face</h3>
+                  </div>
+                  <div class="distance-info-tag">
+                    <h3><span class="social-circle"><i class="fas fa-plane-departure"></i></span>Bandaranaike
+                      International Airport</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+        <!----end of section slider tab------->
+      </div>
+      <section>
+        <div class="container">
+          <div class="map-img-box">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="map-img">
+                  <img src="img/map_1.png" />
+                </div>
+              </div>
+            </div>
+            <div class="map-info-outerbox">
+              <div class="row">
+                <div class="col-6 col-md-3">
+                  <div class="map-img-info">
+                    <h6><span class="map-circle orang"></span>Religous locations</h6>
+                    <p>1. Vidyodaya Pirivena</p>
+                    <p>2. ACTJ Jumma Masjid</p>
+                    <p>3. Maha Wisuddarama Piriwena</p>
+                    <p>4. Zavia Masjid</p>
+                  </div>
+                </div>
+                <div class="col-6 col-md-3">
+                  <div class="map-img-info">
+                    <h6><span class="map-circle blue"></span>Shops</h6>
+                    <p>5. Cargills Food City</p>
+                    <p>6. Cargills Food City Express</p>
+                    <h6><span class="map-circle purple"></span>Cinema</h6>
+                    <p>7. Ruby Cinem</p>
+                    <p>8. Cine City</p>
+                  </div>
+                </div>
+                <div class="col-6 col-md-3">
+                  <div class="map-img-info">
+                    <h6><span class="map-circle yellow"></span>Schools</h6>
+                    <p>9. Ashoka Collage</p>
+                    <p>10. Ananda Collage</p>
+                    <p>11. Ananda Balika Vidyalaya</p>
+                    <p>12. Zahira Collage</p>
+                    <p>13. Clifton Girls School</p>
+                    <p>14. Al Quds Arabic International Schoo</p>
+                  </div>
+                </div>
+                <div class="col-6 col-md-3">
+                  <div class="map-img-info">
+                    <h6><span class="map-circle red"></span>Banks</h6>
+                    <p>15. Commercial Bank</p>
+                    <p>16. Bank of Ceylon</p>
+                    <p>17. Seylan Bank PLC</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+    </div>
+    <div class="container-fluid-wide map2-bg">
+      <section class="map2-bg">
+        <div class="container">
+          <div class="map-img-box">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="map-img-2">
+                  <img src="img/map_2.jpg" />
+                </div>
+              </div>
+            </div>
+            <div class="map-info-outerbox">
+              <div class="row">
+                <div class="col-6 col-md-3">
+                  <div class="map-img-info">
+                    <h6><span class="map-circle green"></span>Hospitals</h6>
+                    <p>1. Nawaloka Hospital</p>
+                    <p>2. Suliman’s Hospital</p>
+                    <p>3. National Hospital</p>
+                    <h6><span class="map-circle gray"></span>PARKS</h6>
+                    <p>18. Viharamahadevi Park</p>
+                    <p>19. Galle Face Green</p>
+                  </div>
+                </div>
+                <div class="col-6 col-md-3">
+                  <div class="map-img-info">
+                    <h6><span class="map-circle blue"></span>Hotels and Shops</h6>
+                    <p>4. The Kingsbury</p>
+                    <p>5. Cinnamon Lakeside Colombo</p>
+                    <p>6. Manning Market</p>
+                    <p>7. Shangri-La Hotel Site</p>
+                    <p>8. Hilton Colombo</p>
+                    <p>9. Pettah World Market</p>
+                    <p>10. Dematagoda Public Market</p>
+                    <p>11. ODEL</p>
+                    <p>12. House of Fashion</p>
+                  </div>
+                </div>
+                <div class="col-6 col-md-3">
+                  <div class="map-img-info">
+                    <h6><span class="map-circle yellow"></span>Schools</h6>
+                    <p>13. Maradana Technical College</p>
+                    <p>14. Ananda Collage</p>
+                    <p>15. Law College</p>
+                    <p>16. Anuruddha Balika Maha Vidyalaya</p>
+                    <p>17. Hameed AL Husseinie College</p>
+                    <p>18. Al-Hidaya Maha Vidyalaya</p>
+                    <p>19. St. Joseph’s College</p>
+                  </div>
+                </div>
+                <div class="col-6 col-md-3">
+                  <div class="map-img-info">
+                    <h6><span class="map-circle pink"></span>Railway STATIONS</h6>
+                    <p>20. Slave Island Railway Station</p>
+                    <p>21. Secretariat Railway Station</p>
+                    <p>22. Colombo Fort Railway Station</p>
+                    <p>23. Maradana Railway Station</p>
+                    <p>24. Baseline Road Railway Station</p>
+                    <p>25. Cotta Road Railway Station</p>
+                    <p>26. Dematagoda Railway Statio</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+    </div>
+  </div>
+        <!-----------right note box-------->
+        <button id="expander" class="btn"><b>RESERVE</b> <i class="fas fa-plus"></i></button>
+        <div class="right-note-box">
+
+            <div class="mobhide">
+                <ul id="top-menu">
+                    <li id="unexpander"><a class="collapsbtn" onclick="return false;"><i class="fas fa-minus"></i></a>
+                    </li>
+                </ul>
+                <p class="right-note-box-title">RESERVE YOUR DREAM
+                </p>
+                <p class="right-note-box-content">Starting From 33 million!</p>
+                <p class="right-note-box-title contact-btn">
+                    <a href="tel:+94767555777" > +94 76 755 5777</a>
+                </p>
+                <p class="right-note-box-title">
+                    <a href="mailto:sales@mulberryresidence.com">sales@mulberryresidence.com</a>
+                </p>
+
+                <div class="">
+                    <a href="availability.html" target="_blank" class="btn custom-btn">Check Availability<span class="circle"><i
+              class="fas fa-angle-right"></i></span></a>
+                </div>
+            </div>
+
+            <div class="dekstophide">
+                <a href="tel:+94767555777"><span class="circle"><i class="fas fa-phone-alt"></i></span></a>
+            </div>
+        </div>
+        <!-----------end of right note box------->
+
+<!--------social btns----->
+<div class="plus-button"></div>
+<a target="_blank" href="">
+    <div class="social-button twitter-button"></div>
+</a>
+<a target="_blank" href="https://www.facebook.com/mulberryresidence">
+    <div class="social-button facebook-button"></div>
+</a>
+<a target="_blank" href="https://www.instagram.com/mulberryresidencesl/">
+    <div class="social-button insta-button"></div>
+</a>
+<a target="_blank" href="https://www.youtube.com/channel/UClcu7KwEFaFmPN46avO4wpA">
+    <div class="social-button youtube-button"></div>
+</a>
+<a target="_blank" href="https://wa.me/+94767555777">
+    <div class="social-button whatsapp-button"></div>
+</a>
+<a target="_blank" href="-https://www.linkedin.com/company/mulberry-residence/">
+    <div class="social-button linkedin-button"></div>
+</a>
+<!--------end of social btns----->
+
+<footer>
+  
+  <section class="footer-sec-2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h5>Head Office</h5>
+          <p>144,Sri Vajirangana Mawatha</p>
+          <p>Colombo 9, Sri Lanka</p>
+          <p>Hotline - +94 76 755 5777</p>
+          <p>sales@mulberryresidence.com</p>
+        </div>
+        <div class="col-md-3">
+          <h5>Quick Links</h5>
+          <ul>
+            <li> <a href="index.html" class="link">Home</a></li>
+            <li> <a href="about.html" class="link">About us</a> </li>
+            <li> <a href="location.html" class="link">Location </a> </li>
+            <li> <a href="masterplan.html" class="link">Floor Plans</a></li>
+            <li> <a href="walkthrough.html" class="link">Walk Through</a></li>
+            <li> <a href="availability.html" class="link">Availability </a> </li>
+            <li> <a href="payment.html" class="link">Payment Plan</a></li>
+            <li> <a href="facilities.html" class="link">Facilities & Finishes</a> </li>
+            <li> <a href="progress.html" class="link">Progress</a></li>
+            <li><a href="gallery.html" class="link">Gallery</a></li>
+            <li><a href="faq.html" class="link">FAQ</a></li>
+            <li> <a href="contact.html" class="link">Contact Us</a> </li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <h5>Keep Me Up To Date</h5>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Your Email Address" aria-label="Your Email"
+              aria-describedby="basic-addon2">
+            <div class="input-group-append">
+              <button class="btn" type="button">Sign Up</button>
+            </div>
+          </div>
+          <p class="sml-text">BY SIGNING UP YOU AGREE TO RECEIVE COMMUNICATIONS FROM MULBERRY RESIDENCE.</p>
+          <ul class="veticle-ul">
+            <li><a href="https://www.facebook.com/mulberryresidence" target="_blank"><span class="social-circle"><i class="fab fa-facebook-f"></i></span></a></li>
+            <li><a href="https://www.instagram.com/mulberryresidencesl/" target="_blank"><span class="social-circle"><i class="fab fa-youtube" ></i></span></a></li>
+            <li><a href="https://www.youtube.com/channel/UClcu7KwEFaFmPN46avO4wpA" target="_blank"><span class="social-circle"><i class="fab fa-instagram"></i></span></a></li>
+            <li><a href="https://wa.me/+94767555777" target="_blank"><span class="social-circle"><i
+                class="fab fa-whatsapp"></i></span></a></li>
+        </ul>
+          <!--<img src="img/partner-logo_white.png" />-->
+
+        </div>
+      </div>
+  </section>
+  <section class="footer-sec-3">
+    <div class="container">
+      <p>The information and materials are subject to change as per the architect’s directions.</p>
+      <p>Copyright 2020 ©️ Mulberry Residence. All Rights Reserved | Solution by Steradian Capital</p>
+    </div>
+  </section>
+</footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="lib/fontawesome/js/all.min.js"></script>
+  <script src="lib/fontawesome/js/fontawesome.min.js"></script>
+  <script src="lib/slick/slick.min.js"></script>
+
+  <script>
+    mapboxgl.accessToken = 'pk.eyJ1Ijoic3RlcmFkaWFuLWNhcGl0YWwiLCJhIjoiY2w5NnZ3YzUwMHJvazNvcXF4c3F5bmx3MCJ9.R6FkBJYvfFaavIK3nAh-og';
+    const map = new mapboxgl.Map({
+    container: 'mapbox-map', // container ID
+    style: 'mapbox://styles/mapbox/light-v10', // style URL
+    center: [79.8682341997433, 6.928275488982321, ], // starting position [lng, lat]
+    zoom: 13, // starting zoom
+
+    });
+
+    map.on("load", function(mapEvent) {
+        mapEvent.target.scrollZoom.disable();
+
+             // Add Map controls
+        mapEvent.target.addControl(
+        new mapboxgl.NavigationControl(),
+        "bottom-left"
+        );
+
+        // const mainMarkerEl = document.createElement("div");
+
+        // mainMarkerEl.classList.add("marker");
+        // mainMarkerEl.id = "map-marker";
+        // new mapboxgl.Marker(mainMarkerEl)
+        // .setLngLat([79.8682341997433, 6.928275488982321])
+        // .addTo(mapEvent.target);
+    })
+
+
+    const marker2 = new mapboxgl.Marker({ color: 'black' }).setLngLat([79.8682341997433, 6.928275488982321]).addTo(map);
+
+
+
+    // Add Current Active Marker
+   
+    </script>
+  <script>
+    $('.main-slider-for').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: true,
+      fade: true,
+      asNavFor: '.main-slider-nav'
+
+    });
+    $('.main-slider-nav').slick({
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      asNavFor: '.main-slider-for',
+      centerMode: true,
+      dots: true,
+      focusOnSelect: true,
+      responsive: [
+        {
+          breakpoint: 768, // mobile breakpoint
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1
+          }
+        }
+      ]
+    });
+
+    $('a[data-slide]').click(function (e) {
+      e.preventDefault();
+      var slideno = $(this).data('slide');
+      $('.main-slider-nav').slick('slickGoTo', slideno - 1);
+    });
+  </script>
+</body>
+
+</html>
