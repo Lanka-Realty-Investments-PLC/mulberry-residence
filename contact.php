@@ -2,12 +2,12 @@
 <html lang="en">
 
 <head>
-    <!-- Google Tag Manager -->
+<!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-NHMW267');</script>
+})(window,document,'script','dataLayer','GTM-MRLCVXK');</script>
 <!-- End Google Tag Manager -->
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -42,8 +42,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </head>
 
 <body>
-    <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NHMW267"
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MRLCVXK"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <!----header nav bar -->
@@ -69,7 +69,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
         <ul class="number-ul">
             <!--<li><a href="#"><span class="icon-circle"><i class="fas fa-phone-alt"></i></span></a></li>-->
-            <li><a href="https://wa.me/+94767555777"  class="whatsapp-button" style="color: #fff !important" target="_blank"><i class="fab fa-whatsapp "></i> +94 76 755 5777</a></li>
+            <li><a href="https://wa.me/+94766194849"  class="whatsapp-button" style="color: #fff !important" target="_blank"><i class="fab fa-whatsapp "></i> +94 76 619 4849</a></li>
         </ul>
         <div class="dropdownmenu">
             <ul>
@@ -149,7 +149,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <div class="content-info-box-title">
                                 <h5><i class="fas fa-mobile-alt"></i> Contact</h5>
                             </div>
-                            <h6>Hotline: +94 76 755 5777 </h6>
+                            <h6>Hotline: +94 76 619 4849 </h6>
                             <h6>Tel: +94 11 233 1556 </h6>
                             <h6>Fax: +94 11 233 1555</h6>
                         </div>
@@ -165,7 +165,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <li><a href="https://www.facebook.com/mulberryresidence" target="_blank"><span class="social-circle"><i class="fab fa-facebook-f"></i></span></a></li>
                             <li><a href="https://www.instagram.com/mulberryresidencesl/" target="_blank"><span class="social-circle"><i class="fab fa-youtube" ></i></span></a></li>
                             <li><a href="https://www.youtube.com/channel/UClcu7KwEFaFmPN46avO4wpA" target="_blank"><span class="social-circle"><i class="fab fa-instagram"></i></span></a></li>
-                            <li><a href="https://wa.me/+94767555777" target="_blank"><span class="social-circle"><i
+                            <li><a href="https://wa.me/+94766194849" target="_blank"><span class="social-circle"><i
                                 class="fab fa-whatsapp"></i></span></a></li>
                         </ul>
                         </div>
@@ -494,7 +494,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </p>
                 <p class="right-note-box-content">Starting From 33 million!</p>
                 <p class="right-note-box-title contact-btn">
-                    <a href="tel:+94767555777" > +94 76 755 5777</a>
+                    <a href="tel:+94766194849" > +94 76 619 4849</a>
                 </p>
                 <p class="right-note-box-title">
                     <a href="mailto:sales@mulberryresidence.com">sales@mulberryresidence.com</a>
@@ -507,7 +507,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
 
             <div class="dekstophide">
-                <a href="tel:+94767555777"><span class="circle"><i class="fas fa-phone-alt"></i></span></a>
+                <a href="tel:+94766194849"><span class="circle"><i class="fas fa-phone-alt"></i></span></a>
             </div>
         </div>
         <!-----------end of right note box------->
@@ -526,7 +526,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <a target="_blank" href="https://www.youtube.com/channel/UClcu7KwEFaFmPN46avO4wpA">
     <div class="social-button youtube-button"></div>
 </a>
-<a target="_blank" href="https://wa.me/+94767555777">
+<a target="_blank" href="https://wa.me/+94766194849">
     <div class="social-button whatsapp-button"></div>
 </a>
 <a target="_blank" href="-https://www.linkedin.com/company/mulberry-residence/">
@@ -543,7 +543,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <h5>Head Office</h5>
                     <p>144,Sri Vajirangana Mawatha</p>
                     <p>Colombo 9, Sri Lanka</p>
-                    <p>Hotline - +94 76 755 5777</p>
+                    <p>Hotline - +94 76 619 4849</p>
                     <p>sales@mulberryresidence.com</p>
                 </div>
                 <div class="col-md-3">
@@ -581,7 +581,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <li><a href="https://www.facebook.com/mulberryresidence" target="_blank"><span class="social-circle"><i class="fab fa-facebook-f"></i></span></a></li>
                             <li><a href="https://www.instagram.com/mulberryresidencesl/" target="_blank"><span class="social-circle"><i class="fab fa-youtube" ></i></span></a></li>
                             <li><a href="https://www.youtube.com/channel/UClcu7KwEFaFmPN46avO4wpA" target="_blank"><span class="social-circle"><i class="fab fa-instagram"></i></span></a></li>
-                            <li><a href="https://wa.me/+94767555777" target="_blank"><span class="social-circle"><i
+                            <li><a href="https://wa.me/+94766194849" target="_blank"><span class="social-circle"><i
                                 class="fab fa-whatsapp"></i></span></a></li>
                         </ul>
                         
