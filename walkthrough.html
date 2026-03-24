@@ -344,8 +344,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- Mapbox GL JS -->
 <link href="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.css" rel="stylesheet">
 <script src="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.js"></script>
+<script src="config.js.php"></script>
 <script>
-    mapboxgl.accessToken = 'REMOVED_MAPBOX_KEY';
+    mapboxgl.accessToken = window.ENV.MAPBOX_API_KEY;
     
     const map = new mapboxgl.Map({
         container: 'map',

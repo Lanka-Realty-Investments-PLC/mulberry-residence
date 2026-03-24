@@ -442,9 +442,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <script src="lib/fontawesome/js/all.min.js"></script>
   <script src="lib/fontawesome/js/fontawesome.min.js"></script>
   <script src="lib/slick/slick.min.js"></script>
-
-  <script>
-    mapboxgl.accessToken = 'REMOVED_MAPBOX_KEY';
+  <script src="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.js"></script>
+<script src="config.js.php"></script>
+<script>
+    mapboxgl.accessToken = window.ENV.MAPBOX_API_KEY;
     const map = new mapboxgl.Map({
     container: 'mapbox-map', // container ID
     style: 'mapbox://styles/mapbox/light-v10', // style URL

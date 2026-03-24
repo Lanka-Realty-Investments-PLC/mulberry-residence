@@ -300,8 +300,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     curl_setopt($curl, CURLOPT_POST, true);
                     curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
 
+                    $courierKey = getenv('COURIER_API_KEY') ?: 'COURIER_API_KEY_NOT_SET';
                     $headers = array(
-                        "Authorization: Bearer REMOVED_COURIER_KEY",
+                        "Authorization: Bearer " . $courierKey,
                         );
                     curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
 
@@ -610,8 +611,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- Mapbox GL JS -->
 <link href="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.css" rel="stylesheet">
 <script src="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.js"></script>
+<script src="config.js.php"></script>
 <script>
-    mapboxgl.accessToken = 'REMOVED_MAPBOX_KEY';
+    mapboxgl.accessToken = window.ENV.MAPBOX_API_KEY;
     
     const map = new mapboxgl.Map({
         container: 'map',

@@ -1183,8 +1183,9 @@ Welcome to Mulberry Residence, where modern city living meets timeless elegance 
 
         }
     </script>
+    <script src="config.js.php"></script>
     <script>
-        mapboxgl.accessToken = 'REMOVED_MAPBOX_KEY';
+        mapboxgl.accessToken = window.ENV.MAPBOX_API_KEY;
         const map = new mapboxgl.Map({
         container: 'mapbox-map', // container ID
         style: 'mapbox://styles/mapbox/light-v10', // style URL
