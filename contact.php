@@ -607,175 +607,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script src="js/main.js"></script>
 <script src="lib/fontawesome/js/all.min.js"></script>
 <script src="lib/fontawesome/js/fontawesome.min.js"></script>
-<!-- Google reCaptcha -->
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
-<script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYnyDX-g5C-OLfzQwZnL-UaG4PJZPb-3U&callback=initMap">
-</script>
+<!-- Mapbox GL JS -->
+<link href="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.css" rel="stylesheet">
+<script src="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.js"></script>
 <script>
-    function initMap() {
+    mapboxgl.accessToken = 'REMOVED_MAPBOX_KEY';
+    
+    const map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v12',
+        center: [79.866945, 6.928992],
+        zoom: 14
+    });
 
-        var latlng = {lat: 6.928992, lng: 79.866945};
-        var mapOptions = {
-            zoom: 14,
-            center: latlng,
-            styles: [
-                {
-                    "featureType": "landscape.man_made",
-                    "elementType": "geometry",
-                    "stylers": [
-                        {
-                            "color": "#f7f1df"
-                        }
-                    ]
-                },
-                {
-                    "featureType": "landscape.natural",
-                    "elementType": "geometry",
-                    "stylers": [
-                        {
-                            "color": "#d0e3b4"
-                        }
-                    ]
-                },
-                {
-                    "featureType": "landscape.natural.terrain",
-                    "elementType": "geometry",
-                    "stylers": [
-                        {
-                            "visibility": "off"
-                        }
-                    ]
-                },
-                {
-                    "featureType": "poi",
-                    "elementType": "labels",
-                    "stylers": [
-                        {
-                            "visibility": "off"
-                        }
-                    ]
-                },
-                {
-                    "featureType": "poi.business",
-                    "elementType": "all",
-                    "stylers": [
-                        {
-                            "visibility": "off"
-                        }
-                    ]
-                },
-                {
-                    "featureType": "poi.medical",
-                    "elementType": "geometry",
-                    "stylers": [
-                        {
-                            "color": "#fbd3da"
-                        }
-                    ]
-                },
-                {
-                    "featureType": "poi.park",
-                    "elementType": "geometry",
-                    "stylers": [
-                        {
-                            "color": "#bde6ab"
-                        }
-                    ]
-                },
-                {
-                    "featureType": "road",
-                    "elementType": "geometry.stroke",
-                    "stylers": [
-                        {
-                            "visibility": "off"
-                        }
-                    ]
-                },
-                {
-                    "featureType": "road",
-                    "elementType": "labels",
-                    "stylers": [
-                        {
-                            "visibility": "off"
-                        }
-                    ]
-                },
-                {
-                    "featureType": "road.highway",
-                    "elementType": "geometry.fill",
-                    "stylers": [
-                        {
-                            "color": "#ffe15f"
-                        }
-                    ]
-                },
-                {
-                    "featureType": "road.highway",
-                    "elementType": "geometry.stroke",
-                    "stylers": [
-                        {
-                            "color": "#efd151"
-                        }
-                    ]
-                },
-                {
-                    "featureType": "road.arterial",
-                    "elementType": "geometry.fill",
-                    "stylers": [
-                        {
-                            "color": "#ffffff"
-                        }
-                    ]
-                },
-                {
-                    "featureType": "road.local",
-                    "elementType": "geometry.fill",
-                    "stylers": [
-                        {
-                            "color": "black"
-                        }
-                    ]
-                },
-                {
-                    "featureType": "transit.station.airport",
-                    "elementType": "geometry.fill",
-                    "stylers": [
-                        {
-                            "color": "#cfb2db"
-                        }
-                    ]
-                },
-                {
-                    "featureType": "water",
-                    "elementType": "geometry",
-                    "stylers": [
-                        {
-                            "color": "#a2daf2"
-                        }
-                    ]
-                }
-            ]
-        };
-        var map = new google.maps.Map(document.getElementById('map'), mapOptions);
-
-        var image = new google.maps.MarkerImage(
-            'img/map-pin.svg',
-            null, // size
-            null, // origin
-            new google.maps.Point(8, 8), // anchor (move to center of marker)
-            new google.maps.Size(40, 40) // scaled size (required for Retina display icon)
-        );
-
-        var marker = new google.maps.Marker({
-            position: latlng,
-            map: map,
-            title: 'Mulberry REsidence',
-            icon: image
-        });
-
-    }
-
+    const marker = new mapboxgl.Marker()
+        .setLngLat([79.866945, 6.928992])
+        .addTo(map);
 </script>
 <script>
     $(document).ready(function () {
