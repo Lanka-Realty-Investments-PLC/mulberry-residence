@@ -3486,7 +3486,7 @@ a:not([href]):not([class]) {
   left: 0;
   right: 0;
   top: 0;
-  background-image: -moz-linear-gradient(
+  /* background-image: -moz-linear-gradient(
     94deg,
     #000a25 16%,
     rgba(0, 10, 37, 0.99) 17%,
@@ -3503,8 +3503,8 @@ a:not([href]):not([class]) {
     #000a25 16%,
     rgba(0, 10, 37, 0.99) 17%,
     rgba(15, 36, 63, 0) 100%
-  );
-  opacity: 0.8;
+  ); */
+  /* opacity: 0.8; */
 }
 
 .gallery-grid .gallery-box .gallery-label {
