@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    ports:
+      - "8080:80"
+    environment:
+      - COURIER_API_KEY=${COURIER_API_KEY:-}
+      - MAPBOX_API_KEY=${MAPBOX_API_KEY:-}
+    volumes:
+      - ./:/var/www/html
+    restart: unless-stopped
